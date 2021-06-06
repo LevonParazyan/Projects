@@ -1,0 +1,19 @@
+nat x = 10
+real y = 1.5
+print "x =" x
+print "y =" y 
+x = 11
+print after change value of "x" 
+print x
+
+print Condition "Y < X"
+cond y < x {
+print x
+}
+
+print Cycle
+
+loop x > y { 
+print x
+x = x - 1
+}
